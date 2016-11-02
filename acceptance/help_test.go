@@ -7,7 +7,7 @@ import (
 	"github.com/onsi/gomega/gexec"
 )
 
-var _ = FDescribe("Help", func() {
+var _ = Describe("Help", func() {
 
 	var (
 		session *gexec.Session
