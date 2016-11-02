@@ -19,6 +19,7 @@ func main() {
 
 	commands := []command{
 		{"version", "returns the semantic version in use", &commands.Version{}},
+		{"serve", "begin serving requests", &commands.Serve{}},
 	}
 
 	for _, command := range commands {
