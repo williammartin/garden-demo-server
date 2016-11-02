@@ -5,7 +5,7 @@ import (
 	"os"
 
 	flags "github.com/jessevdk/go-flags"
-	"github.com/williammartin/garden-curator/commands"
+	"github.com/williammartin/garden-demo-server/commands"
 )
 
 type command struct {
