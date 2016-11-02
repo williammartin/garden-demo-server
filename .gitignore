@@ -24,4 +24,4 @@ _testmain.go
 *.prof
 
 vendor/
-garden-curator
+garden-demo-server
